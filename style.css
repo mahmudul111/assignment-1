@@ -4,29 +4,26 @@
 }
 /* banner section */
 .header-banner-container{
+    
     display: flex;
-    background-color: #E554731A;
+    justify-content: space-between;
     height: 90vh;
-    gap: 100px;
+    background-color: rgba(229, 84, 115, 0.10);;
 }
 .header-banner-item{
-    margin-left: 240px;
+    margin: 120px 50px 10px 150px;
 }
 .header-title{
-    color: #272727;
-font-family: Lato;
-font-size: 70px;
-font-weight: 800;
-margin-top: 150px;
+  
+    font-size: 60px;
+    font-weight: 700;
 
 }
 .header-description{
-    color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 23px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 30px;
+    font-size: 16px;
+    color: #403f3f;
+    margin-top: 24px;
+
 }
 .btn-shop{
     margin-top: 30px;
@@ -41,17 +38,13 @@ margin-top: 30px;
 
 }
 .image-banner-item{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    
-    
+        
 }
 .header-banner-img{
-    padding-right: 150px;
-    margin-top: 67px;
-    vertical-align: bottom;
-    height: 711px;
-    width: 550px;
+    width: 400px;
+    margin: 80px 120px 0px 0px;
+    vertical-align: bottom
+   
 }
 /* feature flower section */
 .feature-container{
@@ -72,4 +65,51 @@ font-family: Lato;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+margin-top: 24px;
+}
+.flower-container{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    margin-left: 140px;
+}
+.feature-image1{
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.flower-image1{
+    width: 310px;
+height: 428px;
+vertical-align: bottom;
+margin: 110px 78px 0px 76px;
+    
+
+}
+.feature-image2{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background-color: #0597A026;
+}
+.flower-image2{
+    width: 370px;
+height: 370px;
+vertical-align: bottom;
+margin: 117px 51px 0px 47px;
+   
+}
+.feature-image3{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background-color: #477D1126;
+}
+.flower-image3{
+    width: 314px;
+height: 471px;
+margin: 67px 75px 0px 75px;
 }
