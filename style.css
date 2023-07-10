@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* banner section */
+.header-banner-container{
+    display: flex;
+    background-color: #E554731A;
+    height: 80vh;
+}
