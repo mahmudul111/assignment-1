@@ -6,7 +6,7 @@
 .header-banner-container{
     display: flex;
     background-color: #E554731A;
-    height: 100vh;
+    height: 90vh;
     gap: 100px;
 }
 .header-banner-item{
@@ -15,7 +15,7 @@
 .header-title{
     color: #272727;
 font-family: Lato;
-font-size: 65px;
+font-size: 70px;
 font-weight: 800;
 margin-top: 150px;
 
@@ -50,8 +50,26 @@ margin-top: 30px;
     padding-right: 150px;
     margin-top: 67px;
     vertical-align: bottom;
-    height: 800px;
-    width: 600px;
-
-    
+    height: 711px;
+    width: 550px;
+}
+/* feature flower section */
+.feature-container{
+    height: 100vh;
+}
+.feature-title{
+    margin-top: 120px;
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
