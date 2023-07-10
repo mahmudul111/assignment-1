@@ -168,3 +168,28 @@ border: 0px;
 }
 
 /* instagram section */
+.contact-section{
+    height: 100vh;
+}
+.insta-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.insta-description{
+    text-align: center;
+    font-size: 18px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+/* .insta-img{
+    width: 200px;
+} */
+.inst-img-1{
+width: 250px;
+
+}
