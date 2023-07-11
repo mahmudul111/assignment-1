@@ -279,9 +279,10 @@ width: 250px;
      /* bonus section customer review */
     .review-section{
         margin-top: 100px;
-        width: 600px;
+        width: auto;
         display: block;
-        margin-left: 220px;
+        margin-left: 150px;
+        margin-right: 150px;
         align-items: center;
         background-color:  #E554730D;
     }
@@ -296,5 +297,6 @@ width: 250px;
     }
     .legend-section{
         font-size: 30px;
+        padding: 10px;
     }
   
