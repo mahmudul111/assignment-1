@@ -170,7 +170,7 @@ border: 0px;
 
 /* instagram section */
 .contact-section{
-    height: 180vh;
+    height: 100vh;
 }
 .insta-title{
     margin-top: 100px;
@@ -204,6 +204,7 @@ width: 250px;
   
   .offer-title {
     margin-top: 80px;
+    margin-bottom: 10px;
     border-radius: 8px;
     background-image: url('Flower\ Asset/Rectangle 9.png');
     background-color: lightgray;
@@ -253,4 +254,23 @@ width: 250px;
         border: none;
         
     }
- 
+    /* footer section */
+    .footer-section{
+        margin-top: 140px;
+            height: 40vh;
+            background-color: #111010;
+            color: #FFF;
+            text-align: center;
+
+    }
+    .footer-title{
+        padding-top: 100px;
+        font-size: 35px;
+    }
+    .margin-top footer-description{
+        font-size: 18px;
+    }
+    .footer-text{
+        font-size: 15px;
+        color: rgb(166, 163, 163);
+    }
