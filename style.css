@@ -60,7 +60,7 @@ border: none;
 
 /* feature flower section */
 .feature-container{
-    height: 100vh;
+    height: 88vh;
 }
 .feature-title{
     margin-top: 120px;
@@ -254,6 +254,7 @@ width: 250px;
         border: none;
         
     }
+    
     /* footer section */
     .footer-section{
         margin-top: 140px;
@@ -274,3 +275,26 @@ width: 250px;
         font-size: 15px;
         color: rgb(166, 163, 163);
     }
+
+     /* bonus section customer review */
+    .review-section{
+        margin-top: 100px;
+        width: 600px;
+        display: block;
+        margin-left: 130px;
+        align-items: center;
+        background-color:  #E554730D;
+    }
+    .btn-submit{
+        text-align:;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .write-review{
+            margin-top: 15px;
+            margin-left: 25px;
+    }
+    .legend-section{
+        font-size: 30px;
+    }
+  
