@@ -35,7 +35,8 @@ header-description{
     font-weight: bold;
     padding: 32px 0px;
 }
-.btn-shop{color: #FFF;
+.btn-shop{
+    color: #FFF;
 font-size: 20px;
 font-weight: 700;
 padding: 20px 43px;
@@ -169,7 +170,7 @@ border: 0px;
 
 /* instagram section */
 .contact-section{
-    height: 100vh;
+    height: 180vh;
 }
 .insta-title{
     margin-top: 100px;
@@ -193,3 +194,63 @@ border: 0px;
 width: 250px;
 
 }
+
+/* offer section */
+.insta-offer {
+    margin-top: 100px;
+    width: 1070px;
+    margin:auto;
+  }
+  
+  .offer-title {
+    margin-top: 80px;
+    border-radius: 8px;
+    background-image: url('Flower\ Asset/Rectangle 9.png');
+    background-color: lightgray;
+    background-size: cover;
+    justify-content: center;
+    height: 35vh;
+    
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    
+
+    align-items: center;
+    }
+    
+    
+    .offer-title input {
+    width: 400px;
+    padding-left: 15px;
+    margin-right: 10px;
+    
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(255, 255, 255, 1);
+    }
+    .offer-title p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 35px;
+    }
+    .offer-title h3 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 11px;
+    }
+    .btn-subscribe{
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 12px 30px;
+        border-radius: 8px;
+        background: #E55473;
+        border: none;
+        
+    }
+ 
